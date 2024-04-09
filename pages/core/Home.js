@@ -7,21 +7,34 @@ import { createMaterialBottomTabNavigator } from '@react-navigation/material-bot
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Note from "./Note"
 import See from "./See"
+import Notifications from './Notifications'
 import DatePicker from "react-native-modern-datepicker"
 import { getFormatedDate } from 'react-native-modern-datepicker'
 import { DataTable } from "react-native-paper"
+import { Dropdown } from 'react-native-element-dropdown';
 
 const HomeScreen = ({ navigation }) => {
 
   const [teaches, setTeaches] = useState("")
   const [name, setName] = useState("")
-
+  const [email, setEmail] = useState("")
+  const [grade, setGrade] = useState("")
   const today = new Date()
   const lastDate = getFormatedDate(today.setDate(today.getDate()), "YYYY/MM/DD")
   const [open, setOpen] = useState(false)
   const [date, setDate] = useState(null)
   const [students, setStudents] = useState("")
   const [attendance, setAttendance] = useState([])
+  const [changed, setChanged] = useState("\n")
+  const [ctId, setCtId] = useState(0)
+
+  const data = [
+    { label: '11A', value: '11A' },
+    { label: '11B', value: '11B' },
+    { label: '11C', value: '11C' },
+    { label: '11D', value: '11D' },
+    { label: '11E', value: '11E' },
+  ];
 
   const getStored = async () => {
     const login = await AsyncStorage.getItem("logged_in")
@@ -33,6 +46,7 @@ const HomeScreen = ({ navigation }) => {
         navigation.navigate("Login")
       } else {
         setName(name)
+        setEmail(await AsyncStorage.getItem("email"))
         const data = await AsyncStorage.getItem("teaches")
         if (data !== null) {
           setTeaches(data)
@@ -49,16 +63,27 @@ const HomeScreen = ({ navigation }) => {
 
   const handleClose = async () => {
     setOpen(!open)
+    setChanged("\n")
     if (date) {
       let httpDate = date.split("/")
       httpDate = httpDate.join("-")
-      axios.get(`
-      https://saiteja123.pythonanywhere.com/attendance/get/mobile/?date=${httpDate}&grade=${teaches}
+      if (teaches) {
+        axios.get(`
+      https://saiteja123.pythonanywhere.com/attendance/get/mobile/?date=${httpDate}&grade=${teaches}&teacher=${email}
       `)
-        .then(async (res) => {
-          setStudents(res.data.students)
-          setAttendance([])
-        })
+          .then(async (res) => {
+            setStudents(res.data.students)
+            setAttendance([])
+          })
+      } else {
+        axios.get(`
+      https://saiteja123.pythonanywhere.com/attendance/get/mobile/?date=${httpDate}&grade=${grade}&teacher=${email}
+      `)
+          .then(async (res) => {
+            setStudents(res.data.students)
+            setAttendance([])
+          })
+      }
     }
   }
 
@@ -92,6 +117,7 @@ const HomeScreen = ({ navigation }) => {
 
   }
 
+
   const markAttendance = async () => {
     let httpDate = date.split("/")
     httpDate = httpDate.join("-")
@@ -99,12 +125,34 @@ const HomeScreen = ({ navigation }) => {
     https://saiteja123.pythonanywhere.com/attendance/mark/mobile/
     `, {
       date: httpDate,
-      grade: teaches,
-      attendance: attendance
+      grade: teaches ? teaches : grade,
+      attendance: attendance,
+      email: email
     })
       .then(res => {
-        setStudents("Attendance has been marked successfully.")
+        if (res.data.changed) {
+          setStudents("")
+          setChanged(res.data.changed)
+          setCtId(res.data.id)
+        } else {
+          setStudents("Attendance has been marked successfully.")
+        }
+        setAttendance([])
       })
+
+  }
+
+  const createNotification = async () => {
+    let httpDate = date.split("/")
+    httpDate = httpDate.join("-")
+    const response = await axios.get(`
+    https://saiteja123.pythonanywhere.com/notifications/create/?sent=${email}&received=${ctId}&date=${httpDate}&message="${String(changed)}"
+    `).then(
+      res => {
+        setChanged("Notification has been sent to the class teacher successfully.")
+        //setChanged(res.data.created)
+      }
+    )
   }
 
 
@@ -157,7 +205,85 @@ const HomeScreen = ({ navigation }) => {
 
         </View>
         :
-        <Text style={{ fontSize: 30, textAlign: 'center', fontWeight: '900' }}>You cannot mark attendance because you are not a class teacher.</Text>
+        <View style={{ flex: 1, justifyContent: "center", width: "100%", alignItems: 'center', marginTop: 50 }} >
+
+          {/* START OF GRADE PICKER */}
+          <Dropdown
+            style={styles.dropdown}
+            placeholderStyle={styles.placeholderStyle}
+            selectedTextStyle={styles.selectedTextStyle}
+            inputSearchStyle={styles.inputSearchStyle}
+            data={data}
+            search
+            maxHeight={300}
+            labelField="label"
+            valueField="value"
+            placeholder="Select Class"
+            searchPlaceholder="Search..."
+            value={grade}
+            onChange={item => {
+              setGrade(item.value);
+            }}
+          />
+          {/* END OF GRADE PICKER */}
+
+          <Text style={{ marginTop: 10, marginBottom: 10, fontSize: 25, fontWeight: '700' }}>
+            Selected Date : {date}
+          </Text>
+
+          {/* START OF DATE PICKER */}
+          <View style={styles.Datecontainer}>
+
+            <TouchableOpacity onPress={() => setOpen(!open)} style={{ padding: 11, borderRadius: 20, alignItems: 'center' }}>
+              <Text>Select Date</Text>
+            </TouchableOpacity>
+            <Modal
+              animationType='slide'
+              transparent={true}
+              visible={open}
+            >
+
+              <View style={styles.centeredView}>
+                <View style={styles.modalView}>
+
+                  <DatePicker
+                    mode='calendar'
+                    onDateChange={(date) => setDate(date)}
+                    maximumDate={lastDate}
+                    selected={date}
+                  />
+
+                  <TouchableOpacity onPress={handleClose}>
+                    <Text>Close</Text>
+                  </TouchableOpacity>
+                </View>
+              </View>
+
+            </Modal>
+          </View>
+          {/* END OF DATE PICKER */}
+
+        </View>
+      }
+
+      {typeof (changed) != "string" ?
+        <View style={{ marginBottom: -200, justifyContent: 'center', alignItems: 'center', width: "100%" }}>
+          <ScrollView style={{ height: 200 }}>
+            {changed.map((element, index) => {
+              return (
+                <Text key={index} style={{ textAlign: 'center', fontSize: 17.5, fontWeight: '600' }}>
+                  {index + 1}. {element}
+                </Text>
+              )
+            })}
+          </ScrollView>
+          <Button title='Send Notification to Class Teacher' style={{ marginBottom: -20 }} onPress={() => createNotification()} />
+        </View> :
+        <View style={{ width: "100%", justifyContent: 'center', alignItems: 'center', marginBottom: -20 }}>
+          <Text style={{ textAlign: 'center', fontSize: 17.5, fontWeight: '600' }}>
+            {changed}
+          </Text>
+        </View>
       }
 
       {typeof (students) == "string" ?
@@ -175,7 +301,6 @@ const HomeScreen = ({ navigation }) => {
                 <DataTable.Title>Name</DataTable.Title>
                 <DataTable.Title>Attendance</DataTable.Title>
               </DataTable.Header>
-
 
               {typeof (attendance) == "undefined" || attendance.length == 0 ? ""
 
@@ -205,6 +330,7 @@ const HomeScreen = ({ navigation }) => {
                   )
                 })
               }
+
             </DataTable>
           </ScrollView>
           <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
@@ -226,6 +352,43 @@ const Tab = createMaterialBottomTabNavigator();
 
 const Home = ({ navigation }) => {
 
+  const [email, setEmail] = useState("")
+  const [notifications, setNotifications] = useState(0)
+  const [teaches, setTeaches] = useState(false)
+
+  const getStored = async () => {
+    const login = await AsyncStorage.getItem("logged_in")
+    if (login === null) {
+      navigation.navigate("Login")
+    } else {
+      setEmail(await AsyncStorage.getItem("email"))
+    }
+    const data = await AsyncStorage.getItem("teaches")
+    if (data !== null) {
+      setTeaches(data)
+    } else {
+      setTeaches(false)
+    }
+  }
+
+  const getUnseen = async () => {
+    const response = await axios.get(`
+    https://saiteja123.pythonanywhere.com/nofitifications/get/unseen/count/?email=${email}
+    `).then(
+      res => setNotifications(res.data.unseen)
+    )
+  }
+
+  useEffect(() => {
+    if (teaches != false) {
+      getUnseen()
+    }
+  })
+
+  useEffect(() => {
+    getStored()
+  }, [])
+
   const Logout = () => {
     AsyncStorage.clear()
     navigation.replace("Login")
@@ -236,6 +399,7 @@ const Home = ({ navigation }) => {
       initialRouteName="HomeScreen"
       activeColor="#e91e63"
       barStyle={{ backgroundColor: 'cyan' }}
+      labeled={false}
     >
       <Tab.Screen
         name="HomeScreen"
@@ -245,6 +409,7 @@ const Home = ({ navigation }) => {
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons name="home" color={color} size={26} />
           ),
+          labelStyle: { fontSize: 12, lineHeight: 12 },
         }}
       />
       <Tab.Screen
@@ -255,6 +420,7 @@ const Home = ({ navigation }) => {
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons name="eye" color={color} size={26} />
           ),
+          labelStyle: { fontSize: 12, lineHeight: 12 },
         }}
       />
       <Tab.Screen
@@ -265,8 +431,21 @@ const Home = ({ navigation }) => {
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons name="note-text-outline" color={color} size={26} />
           ),
+          labelStyle: { fontSize: 12, lineHeight: 12 },
         }}
       />
+      {teaches != false ? <Tab.Screen
+        name="Notifications"
+        component={Notifications}
+        options={{
+          tabBarLabel: 'Notification',
+          tabBarIcon: ({ color }) => (
+            <MaterialCommunityIcons name="bell" color={color} size={26} />
+          ),
+          labelStyle: { fontSize: 12, lineHeight: 12 },
+          tabBarBadge: notifications
+        }}
+      /> : null}
       <Tab.Screen
         name="Logout"
         component={Logout}
@@ -275,6 +454,7 @@ const Home = ({ navigation }) => {
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons name="logout" color={color} size={26} />
           ),
+          labelStyle: { fontSize: 12, lineHeight: 12 },
         }}
       />
     </Tab.Navigator>
@@ -288,7 +468,8 @@ const styles = StyleSheet.create({
   },
   Datecontainer: {
     backgroundColor: '#fff',
-    width: 100
+    width: 100,
+    marginBottom: 15
   },
   centeredView: {
     flex: 1,
@@ -323,6 +504,13 @@ const styles = StyleSheet.create({
     fontSize: 35,
     marginLeft: 10,
     fontWeight: '900'
+  },
+  dropdown: {
+    margin: 16,
+    height: 50,
+    borderBottomColor: 'gray',
+    borderBottomWidth: 0.5,
+    width: "75%",
   },
 })
 

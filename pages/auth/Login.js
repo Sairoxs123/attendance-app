@@ -29,6 +29,7 @@ const Login = ({ navigation }) => {
             }
 
             AsyncStorage.setItem("name", res.data.name)
+            AsyncStorage.setItem("email", res.data.email)
             navigation.replace("Home")
 
           } else {
@@ -43,7 +44,7 @@ const Login = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <TextInput placeholder="Enter email: " value={email} onChangeText={setEmail} />
-      <TextInput placeholder="Enter password: " value={password} onChangeText={setPassword} />
+      <TextInput placeholder="Enter password: " secureTextEntry={true} value={password} onChangeText={setPassword} />
       <Text>
         {message}
       </Text>

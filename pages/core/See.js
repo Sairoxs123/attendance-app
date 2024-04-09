@@ -35,7 +35,7 @@ const SeeScreen = ({ navigation }) => {
     if (data !== null) {
       setGrade(data)
     } else {
-      setTeaches(false)
+      setGrade(false)
     }
   }
 
