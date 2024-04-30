@@ -101,11 +101,22 @@ const HomeScreen = ({ navigation }) => {
 
   const changeAttendance = (id) => {
 
+    const options = [true, false, "Sick"]
+
     setAttendance(previous => {
       const updated = previous.map(element => {
         if (element.id === id) {
           // Return a new object with updated present value using spread operator
-          return { ...element, present: !element.present };
+          // return { ...element, present: !element.present };
+
+          let index = options.indexOf(element.present)
+
+          if (index  == options.length - 1) {
+            return { ...element, present: options[0] };
+          } else {
+            return { ...element, present: options[index + 1] };
+          }
+
         } else {
           // Return the original element for other objects
           return element;
@@ -322,7 +333,7 @@ const HomeScreen = ({ navigation }) => {
                       <DataTable.Cell>
                         <TouchableOpacity onPress={() => changeAttendance(element.id)}>
                           <Text>
-                            {attendance[index].present ? 'Present' : 'Absent'}
+                            {typeof(attendance[index].present) == "string" ? "Sick" : attendance[index].present ? 'Present' : 'Absent'}
                           </Text>
                         </TouchableOpacity>
                       </DataTable.Cell>
@@ -443,7 +454,7 @@ const Home = ({ navigation }) => {
             <MaterialCommunityIcons name="bell" color={color} size={26} />
           ),
           labelStyle: { fontSize: 12, lineHeight: 12 },
-          tabBarBadge: notifications
+          tabBarBadge: notifications,
         }}
       /> : null}
       <Tab.Screen

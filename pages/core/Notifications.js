@@ -1,11 +1,11 @@
 import { createStackNavigator } from '@react-navigation/stack';
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Button } from 'react-native';
-import { useState, useEffect } from 'react';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Button, RefreshControl } from 'react-native';
+import { useState, useEffect, useCallback } from 'react';
 import axios from "axios"
 import AsyncStorage from "@react-native-async-storage/async-storage"
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
-const NotificationScreen = ({ navigation }) => {
+const NotificationScreen = ({ route, navigation }) => {
 
     const [email, setEmail] = useState("")
     const [unseen, setUnseen] = useState("")
@@ -19,7 +19,11 @@ const NotificationScreen = ({ navigation }) => {
         getStored()
     }, [])
 
-    const getNotifications = async () => {
+    useEffect(() => {
+        getNotifications(email)
+    }, [email])
+
+    const getNotifications = async (email) => {
         const response = await axios.get(`
         https://saiteja123.pythonanywhere.com/nofitifications/get/unseen/?email=${email}
         `).then(res => {
@@ -36,60 +40,89 @@ const NotificationScreen = ({ navigation }) => {
         })
     }
 
-    useEffect(() => {
-        getNotifications()
-    })
+    //getNotifications()
+
+    //useEffect(() => {
+    //    const refresh = AsyncStorage.getItem("refresh")
+    //
+    //    if (refresh == true) {
+    //        getNotifications()
+    //    }
+    //
+    //})
+
+
+    const [refreshing, setRefreshing] = useState(false);
+
+    const onRefresh = useCallback(() => {
+        setRefreshing(true);
+        getNotifications(email)
+        setTimeout(() => {
+            setRefreshing(false);
+        }, 2000);
+    }, []);
+
+    // refreshing={refreshing} onRefresh={onRefresh()}
 
     return (
         <View style={styles.container}>
-            <View style={{ marginBottom: 50 }}>
-                {typeof (unseen) !== "string" ?
-                    <>
-                        <Text style={{ fontSize: 25, fontWeight: "bold", textAlign: "center" }}>Your Unseen Notifications</Text>
-                        <ScrollView style={{ maxHeight: 200, marginTop: 25 }}>
-                            {unseen.map((element, index) => {
-                                return (
-                                    <TouchableOpacity key={index} onPress={() => navigation.navigate("Notification", { id: element.id, sent_by: element.sent_by, date: element.date, message: element.message, seen: false })} style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
-                                        <Text style={{ fontSize: 20, maxWidth: "95%", textAlign: "center" }}>
-                                            {index + 1}. From {element.sent_by} - {element.date}
-                                        </Text>
-                                        <MaterialCommunityIcons name="arrow-right-circle" color="black" size={26} />
-                                    </TouchableOpacity>
-                                )
-                            })}
-                        </ScrollView>
-                    </>
-                    :
-                    <Text style={{ fontSize: 25, fontWeight: "bold", textAlign: "center" }}>
-                        {unseen}
-                    </Text>
-                }
-            </View>
+            <ScrollView refreshControl={
+                <RefreshControl
+                    refreshing={refreshing}
+                    onRefresh={onRefresh}
+                    colors={['orange', 'red']}
+                />
+            } style={{ paddingTop: 120 }}>
+                <View style={{ marginBottom: 100 }}>
+                    {typeof (unseen) !== "string" ?
+                        <>
+                            <Text style={{ fontSize: 25, fontWeight: "bold", textAlign: "center" }}>Your Unseen Notifications</Text>
+                            <ScrollView style={{ maxHeight: 200, marginTop: 25 }}>
+                                {unseen.map((element, index) => {
+                                    return (
+                                        <TouchableOpacity key={index} onPress={() => navigation.navigate("Notification", { id: element.id, sent_by: element.sent_by, date: element.date, message: element.message, seen: false })} style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 10 }}>
+                                            <Text style={{ fontSize: 20, maxWidth: "95%", textAlign: "center" }}>
+                                                {index + 1}. From {element.sent_by} - {element.date}
+                                            </Text>
+                                            <MaterialCommunityIcons name="arrow-right-circle" color="black" size={26} />
+                                        </TouchableOpacity>
+                                    )
+                                })}
 
-            <View>
-                {typeof (seen) !== "string" ?
-                    <>
-                        <Text style={{ fontSize: 25, fontWeight: "bold", textAlign: "center" }}>Your Seen Notifications</Text>
-                        <ScrollView style={{ maxHeight: 200 }}>
-                            {seen.map((element, index) => {
-                                return (
-                                    <TouchableOpacity key={index} onPress={() => navigation.navigate("Notification", { id: element.id, sent_by: element.sent_by, date: element.date, message: element.message, seen: true })} style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
-                                        <Text style={{ fontSize: 20, maxWidth: "95%", textAlign: "center" }}>
-                                            {index + 1}. From {element.sent_by} - {element.date}
-                                        </Text>
-                                        <MaterialCommunityIcons name="arrow-right-circle" color="black" size={26} />
-                                    </TouchableOpacity>
-                                )
-                            })}
-                        </ScrollView>
-                    </>
-                    :
-                    <Text style={{ fontSize: 25, fontWeight: "bold", textAlign: "center" }}>
-                        {seen}
-                    </Text>
-                }
-            </View>
+                            </ScrollView>
+                        </>
+                        :
+                        <Text style={{ fontSize: 25, fontWeight: "bold", textAlign: "center" }}>
+                            {unseen}
+                        </Text>
+                    }
+                </View>
 
+                <View>
+                    {typeof (seen) !== "string" ?
+                        <>
+                            <Text style={{ fontSize: 25, fontWeight: "bold", textAlign: "center" }}>Your Seen Notifications</Text>
+                            <ScrollView style={{ maxHeight: 200 }}>
+                                {seen.map((element, index) => {
+                                    return (
+                                        <TouchableOpacity key={index} onPress={() => navigation.navigate("Notification", { id: element.id, sent_by: element.sent_by, date: element.date, message: element.message, seen: true })} style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 10 }}>
+                                            <Text style={{ fontSize: 20, maxWidth: "95%", textAlign: "center" }}>
+                                                {index + 1}. From {element.sent_by} - {element.date}
+                                            </Text>
+                                            <MaterialCommunityIcons name="arrow-right-circle" color="black" size={26} />
+                                        </TouchableOpacity>
+                                    )
+                                })}
+                            </ScrollView>
+                        </>
+                        :
+                        <Text style={{ fontSize: 25, fontWeight: "bold", textAlign: "center" }}>
+                            {seen}
+                        </Text>
+                    }
+                </View>
+
+            </ScrollView>
         </View>
     )
 }
@@ -115,7 +148,7 @@ const Notification = ({ route, navigation }) => {
     return (
         <>
             <View style={styles.title}>
-                <TouchableOpacity onPress={() => navigation.navigate('NotifScreen')} style={{ position: 'absolute', left: 5, alignSelf: 'center' }}>
+                <TouchableOpacity onPress={() => navigation.navigate('NotifScreen', { seen: seen })} style={{ position: 'absolute', left: 5, alignSelf: 'center' }}>
                     <MaterialCommunityIcons name='arrow-left-thick' size={30} />
                 </TouchableOpacity>
                 <Text style={styles.nameText}>
@@ -173,7 +206,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        marginTop: 75
+        marginTop: 50
     },
     title: {
         flex: 1,
