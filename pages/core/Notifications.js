@@ -60,7 +60,7 @@ const NotificationScreen = ({ route, navigation }) => {
         setTimeout(() => {
             setRefreshing(false);
         }, 2000);
-    }, []);
+    }, [email]);
 
     // refreshing={refreshing} onRefresh={onRefresh()}
 
@@ -170,7 +170,7 @@ const Notification = ({ route, navigation }) => {
                         {message.map((element, index) => {
                             return (
                                 <Text style={{ fontSize: 20, fontWeight: "bold" }} key={index}>
-                                    {index + 1}. {element.replace('"', "")}
+                                    {index + 1}. {element.replaceAll('"', "")}
                                 </Text>
                             )
                         })}
