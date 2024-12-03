@@ -1,0 +1,521 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:1:1-33:12
+MERGED from [com.facebook.react:flipper-integration:0.73.6] C:\Users\Sai20\.gradle\caches\transforms-3\e692cf908121e189ad3ce70e630b5db9\transformed\jetified-flipper-integration-0.73.6-release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-async-storage_async-storage] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-masked-view_masked-view] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\@react-native-masked-view\masked-view\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-gesture-handler] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-notification-sounds] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-notification-sounds\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-safe-area-context] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-screens] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-vector-icons] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-constants] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-33:12
+MERGED from [:expo-font] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-font\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-keep-awake] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-system-ui] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-system-ui\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-modules-core] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-18:12
+MERGED from [com.facebook.react:react-android:0.73.6] C:\Users\Sai20\.gradle\caches\transforms-3\df5e2bd620c5f5ded8aeb8a1640d3a42\transformed\jetified-react-android-0.73.6-release\AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.fresco:fresco:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\14e372191a44f3e80a7ded286672a16f\transformed\jetified-fresco-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\e386f270fecd0e86a8b179caee74853c\transformed\jetified-imagepipeline-okhttp3-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:animated-gif:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\20acf3fb0b8f0b9e313564669a45e820\transformed\jetified-animated-gif-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:animated-base:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\74c9cf1f11b669bdd84b4ac0c26b1a6e\transformed\jetified-animated-base-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:webpsupport:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\4aac39480b874b3853f0d7c69a9b9436\transformed\jetified-webpsupport-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:animated-drawable:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\5849e84de31482c7988bae2c76f419c4\transformed\jetified-animated-drawable-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:vito-options:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\64c14a57cc751beed6b4801eb8cf8a21\transformed\jetified-vito-options-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:drawee:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\8524324c5ad54824ef34dde0d1c9514d\transformed\jetified-drawee-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagefilters:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\25e1ab24fafa8643d99c34051e6ac704\transformed\jetified-nativeimagefilters-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-native:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\6ce797ab1020b81375ac0d1a9973fb35\transformed\jetified-memory-type-native-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-java:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\c891ff82e04535b459c2e2c113012935\transformed\jetified-memory-type-java-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-native:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\0c4cff01c32ee1b1a14da6b99ee359c5\transformed\jetified-imagepipeline-native-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\410315f64d313eed1dd219042e18defe\transformed\jetified-memory-type-ashmem-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\d32c41f2935aa171b99b46b1adad589c\transformed\jetified-imagepipeline-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\9736944ac6e32413e7dd79cb4ede15de\transformed\jetified-nativeimagetranscoder-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-base:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\907ddcac36eeb770a4be2466b6824c6e\transformed\jetified-imagepipeline-base-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:middleware:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\ecbf9fc290d230cca634023309356578\transformed\jetified-middleware-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:ui-common:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\025dd1ffded9206d4db1963015944ff4\transformed\jetified-ui-common-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:soloader:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\f0a9349dd6572145d06bf47be21c00cf\transformed\jetified-soloader-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:fbcore:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\955e4e24d79f1ad8e2ca5efa930bcf55\transformed\jetified-fbcore-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Sai20\.gradle\caches\transforms-3\5dcafb075dd6e723143dd09e95479c2e\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\Sai20\.gradle\caches\transforms-3\284bdced76504d9ec0db1a02932d1b74\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Sai20\.gradle\caches\transforms-3\63fe6b21dcda9fe2c8f3d9bba0845556\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Sai20\.gradle\caches\transforms-3\f7dbbbc453ac84f8e1f55ee9b7498bc2\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\2548751a1994c949e9b309f6960b10cb\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\b5399c2fc9b9e6da892065d1cea8c700\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Sai20\.gradle\caches\transforms-3\ff236f23631a51cc6ee6e7bbd5f16c60\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Sai20\.gradle\caches\transforms-3\6733ab618726902098874d55d8a2628b\transformed\jetified-activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\196ddc66ab041a416c1899e91bb12f20\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\093c09dd6c22b262225bfbbc15b3a71c\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\88a80c954f6007824566ddb26e2e31ba\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\9aebe641c04673b4e37badcca70a7f1e\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\e560f34a26391fb2e61a3a7065e6f605\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\ef6ff8cbc1909695aa2014426c70e7d1\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:vito-renderer:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\627ad10c417510879b40861cf5be8ba0\transformed\jetified-vito-renderer-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.react:hermes-android:0.73.6] C:\Users\Sai20\.gradle\caches\transforms-3\db47093057b1f41800e5381cfc0052b7\transformed\jetified-hermes-android-0.73.6-release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-sound] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-sound\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\9ef936a1622367cca974b233ed1d8443\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\a009ffcf970f3f3cce3851fbd00b05b9\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\9b8d778ccfc3ddb24e5f4fc76a7816a5\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\0031d9e090613e51ce4e364cf3c0d99e\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\192c14f4613fb0c2b46d35901dd336ef\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4dbb3f58a9fd53a0c4eaa8ffb9d2a519\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\9a32b3f0fe5d6d3a002cc00de98c23bd\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\a164d3ea2f354fdbecf257e5b2a99c0a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\4a81ce71af9c72b6bdf8944cbd28377b\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\98a66fc804b6660b3e2e1d8a829aaca8\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\6346311447512a18de02b94d75a441f3\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\649070c9aa8b5e5f484bbae2322c5e85\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\4c38df224d4593cb021cc10e0f2972f7\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\aedaeef4ff2f845b14bc7d65cb7f5905\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\2c5afa8287b7f0e3eeae5ac024f14af0\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\253c1b602b27bca5a73b6ed6615383b1\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\b645b2ed69a2e282f593342336891f63\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sai20\.gradle\caches\transforms-3\8161456b63a4fc8ccb1191ca896117e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\ff11fb567506ca9df4b256047698ea28\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\f51ca1171a3850aee099841d48f7c123\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4fbe5b696242d179f72ce7f20a8695d5\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\9f369567dae574324b501ed899f834b0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\44741602003680d6137199a2477b5847\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\1f5e9313ad02caa71cfe27bb9cbbdbe0\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\9e556329b3055d284a8ac06096f22a35\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\261cca998bad15d377a79210d1f08b1b\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\671718722da4548b7c9720881e15b59d\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\9d9cf1657e8c4dde408c8fa6d2355897\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\80c5be9d4ef5b860007700e4dbf52781\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\c0dc5f1a6ebeb8d4d8dfb152dff1e92d\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\e4d6317c0ec67de253a2997a3428de2e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\e1128be481deab98f5c2302f6f776144\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Sai20\.gradle\caches\transforms-3\c299a6d8bc084da5542640a432ab852f\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fbjni:fbjni:0.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\20e14a3a1faed9ce3da9af0343545221\transformed\jetified-fbjni-0.5.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\Sai20\.gradle\caches\transforms-3\82a3dce914b6f7c67a5e14e10aa0735b\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:2:1-17:12
+	package
+		INJECTED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:2:3-64
+MERGED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-67
+MERGED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:2:20-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:3:3-77
+MERGED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-80
+MERGED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:3:20-75
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:4:3-75
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:4:20-73
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:5:3-63
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:5:20-61
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:6:3-78
+MERGED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+MERGED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:6:20-76
+queries
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:7:3-13:13
+MERGED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-18:15
+MERGED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-18:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:8:5-12:14
+action#android.intent.action.VIEW
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:9:7-58
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:9:15-56
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:10:7-67
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:10:17-65
+data
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:11:7-37
+	android:scheme
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:11:13-35
+application
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:14:3-32:17
+INJECTED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:14:3-32:17
+MERGED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-31:19
+MERGED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-31:19
+MERGED from [:expo-modules-core] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-16:19
+MERGED from [:expo-modules-core] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\Sai20\.gradle\caches\transforms-3\284bdced76504d9ec0db1a02932d1b74\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\Sai20\.gradle\caches\transforms-3\284bdced76504d9ec0db1a02932d1b74\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Sai20\.gradle\caches\transforms-3\63fe6b21dcda9fe2c8f3d9bba0845556\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Sai20\.gradle\caches\transforms-3\63fe6b21dcda9fe2c8f3d9bba0845556\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4dbb3f58a9fd53a0c4eaa8ffb9d2a519\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4dbb3f58a9fd53a0c4eaa8ffb9d2a519\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sai20\.gradle\caches\transforms-3\8161456b63a4fc8ccb1191ca896117e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sai20\.gradle\caches\transforms-3\8161456b63a4fc8ccb1191ca896117e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\ff11fb567506ca9df4b256047698ea28\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\ff11fb567506ca9df4b256047698ea28\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\9e556329b3055d284a8ac06096f22a35\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\9e556329b3055d284a8ac06096f22a35\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\Sai20\.gradle\caches\transforms-3\82a3dce914b6f7c67a5e14e10aa0735b\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\Sai20\.gradle\caches\transforms-3\82a3dce914b6f7c67a5e14e10aa0735b\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:11:5-15:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:14:48-80
+	android:roundIcon
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:14:116-161
+	android:icon
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:14:81-115
+	android:allowBackup
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:14:162-188
+	android:theme
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:14:189-220
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:14:16-47
+meta-data#expo.modules.updates.ENABLED
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:15:5-83
+	android:value
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:15:60-81
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:15:16-59
+meta-data#expo.modules.updates.EXPO_SDK_VERSION
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:16:5-93
+	android:value
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:16:69-91
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:16:16-68
+meta-data#expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:17:5-105
+	android:value
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:17:81-103
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:17:16-80
+meta-data#expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:18:5-99
+	android:value
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:18:80-97
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:18:16-79
+activity#com.sai_teja123.Attendance.MainActivity
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:19:5-30:16
+	android:screenOrientation
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:19:280-316
+	android:launchMode
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:19:135-166
+	android:windowSoftInputMode
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:19:167-209
+	android:exported
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:19:256-279
+	android:configChanges
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:19:44-134
+	android:theme
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:19:210-255
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:19:15-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:20:7-23:23
+action#android.intent.action.MAIN
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:21:9-60
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:21:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:22:9-68
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:22:19-66
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.sai_teja123.Attendance
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:24:7-29:23
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:26:9-67
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:26:19-65
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:31:5-106
+	android:exported
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:31:80-104
+	android:name
+		ADDED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml:31:15-79
+uses-sdk
+INJECTED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml
+MERGED from [com.facebook.react:flipper-integration:0.73.6] C:\Users\Sai20\.gradle\caches\transforms-3\e692cf908121e189ad3ce70e630b5db9\transformed\jetified-flipper-integration-0.73.6-release\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:flipper-integration:0.73.6] C:\Users\Sai20\.gradle\caches\transforms-3\e692cf908121e189ad3ce70e630b5db9\transformed\jetified-flipper-integration-0.73.6-release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-masked-view_masked-view] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\@react-native-masked-view\masked-view\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-masked-view_masked-view] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\@react-native-masked-view\masked-view\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-notification-sounds] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-notification-sounds\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-notification-sounds] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-notification-sounds\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-constants] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-constants] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
+MERGED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
+MERGED from [:expo-font] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-font\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-font] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-font\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-keep-awake] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-keep-awake] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-system-ui] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-system-ui\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-system-ui] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-system-ui\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-modules-core] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
+MERGED from [:expo-modules-core] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
+MERGED from [com.facebook.react:react-android:0.73.6] C:\Users\Sai20\.gradle\caches\transforms-3\df5e2bd620c5f5ded8aeb8a1640d3a42\transformed\jetified-react-android-0.73.6-release\AndroidManifest.xml:10:5-44
+MERGED from [com.facebook.react:react-android:0.73.6] C:\Users\Sai20\.gradle\caches\transforms-3\df5e2bd620c5f5ded8aeb8a1640d3a42\transformed\jetified-react-android-0.73.6-release\AndroidManifest.xml:10:5-44
+MERGED from [com.facebook.fresco:fresco:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\14e372191a44f3e80a7ded286672a16f\transformed\jetified-fresco-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fresco:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\14e372191a44f3e80a7ded286672a16f\transformed\jetified-fresco-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\e386f270fecd0e86a8b179caee74853c\transformed\jetified-imagepipeline-okhttp3-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\e386f270fecd0e86a8b179caee74853c\transformed\jetified-imagepipeline-okhttp3-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-gif:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\20acf3fb0b8f0b9e313564669a45e820\transformed\jetified-animated-gif-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-gif:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\20acf3fb0b8f0b9e313564669a45e820\transformed\jetified-animated-gif-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-base:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\74c9cf1f11b669bdd84b4ac0c26b1a6e\transformed\jetified-animated-base-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-base:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\74c9cf1f11b669bdd84b4ac0c26b1a6e\transformed\jetified-animated-base-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:webpsupport:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\4aac39480b874b3853f0d7c69a9b9436\transformed\jetified-webpsupport-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:webpsupport:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\4aac39480b874b3853f0d7c69a9b9436\transformed\jetified-webpsupport-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-drawable:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\5849e84de31482c7988bae2c76f419c4\transformed\jetified-animated-drawable-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-drawable:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\5849e84de31482c7988bae2c76f419c4\transformed\jetified-animated-drawable-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-options:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\64c14a57cc751beed6b4801eb8cf8a21\transformed\jetified-vito-options-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-options:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\64c14a57cc751beed6b4801eb8cf8a21\transformed\jetified-vito-options-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\8524324c5ad54824ef34dde0d1c9514d\transformed\jetified-drawee-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\8524324c5ad54824ef34dde0d1c9514d\transformed\jetified-drawee-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\25e1ab24fafa8643d99c34051e6ac704\transformed\jetified-nativeimagefilters-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\25e1ab24fafa8643d99c34051e6ac704\transformed\jetified-nativeimagefilters-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\6ce797ab1020b81375ac0d1a9973fb35\transformed\jetified-memory-type-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\6ce797ab1020b81375ac0d1a9973fb35\transformed\jetified-memory-type-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\c891ff82e04535b459c2e2c113012935\transformed\jetified-memory-type-java-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\c891ff82e04535b459c2e2c113012935\transformed\jetified-memory-type-java-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\0c4cff01c32ee1b1a14da6b99ee359c5\transformed\jetified-imagepipeline-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\0c4cff01c32ee1b1a14da6b99ee359c5\transformed\jetified-imagepipeline-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\410315f64d313eed1dd219042e18defe\transformed\jetified-memory-type-ashmem-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\410315f64d313eed1dd219042e18defe\transformed\jetified-memory-type-ashmem-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\d32c41f2935aa171b99b46b1adad589c\transformed\jetified-imagepipeline-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\d32c41f2935aa171b99b46b1adad589c\transformed\jetified-imagepipeline-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\9736944ac6e32413e7dd79cb4ede15de\transformed\jetified-nativeimagetranscoder-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\9736944ac6e32413e7dd79cb4ede15de\transformed\jetified-nativeimagetranscoder-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\907ddcac36eeb770a4be2466b6824c6e\transformed\jetified-imagepipeline-base-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\907ddcac36eeb770a4be2466b6824c6e\transformed\jetified-imagepipeline-base-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\ecbf9fc290d230cca634023309356578\transformed\jetified-middleware-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\ecbf9fc290d230cca634023309356578\transformed\jetified-middleware-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\025dd1ffded9206d4db1963015944ff4\transformed\jetified-ui-common-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\025dd1ffded9206d4db1963015944ff4\transformed\jetified-ui-common-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\f0a9349dd6572145d06bf47be21c00cf\transformed\jetified-soloader-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\f0a9349dd6572145d06bf47be21c00cf\transformed\jetified-soloader-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\955e4e24d79f1ad8e2ca5efa930bcf55\transformed\jetified-fbcore-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\955e4e24d79f1ad8e2ca5efa930bcf55\transformed\jetified-fbcore-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Sai20\.gradle\caches\transforms-3\5dcafb075dd6e723143dd09e95479c2e\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Sai20\.gradle\caches\transforms-3\5dcafb075dd6e723143dd09e95479c2e\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\Sai20\.gradle\caches\transforms-3\284bdced76504d9ec0db1a02932d1b74\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\Sai20\.gradle\caches\transforms-3\284bdced76504d9ec0db1a02932d1b74\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Sai20\.gradle\caches\transforms-3\63fe6b21dcda9fe2c8f3d9bba0845556\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Sai20\.gradle\caches\transforms-3\63fe6b21dcda9fe2c8f3d9bba0845556\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Sai20\.gradle\caches\transforms-3\f7dbbbc453ac84f8e1f55ee9b7498bc2\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Sai20\.gradle\caches\transforms-3\f7dbbbc453ac84f8e1f55ee9b7498bc2\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\2548751a1994c949e9b309f6960b10cb\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\2548751a1994c949e9b309f6960b10cb\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\b5399c2fc9b9e6da892065d1cea8c700\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\b5399c2fc9b9e6da892065d1cea8c700\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Sai20\.gradle\caches\transforms-3\ff236f23631a51cc6ee6e7bbd5f16c60\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Sai20\.gradle\caches\transforms-3\ff236f23631a51cc6ee6e7bbd5f16c60\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Sai20\.gradle\caches\transforms-3\6733ab618726902098874d55d8a2628b\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Sai20\.gradle\caches\transforms-3\6733ab618726902098874d55d8a2628b\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\196ddc66ab041a416c1899e91bb12f20\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\196ddc66ab041a416c1899e91bb12f20\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\093c09dd6c22b262225bfbbc15b3a71c\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\093c09dd6c22b262225bfbbc15b3a71c\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\88a80c954f6007824566ddb26e2e31ba\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\88a80c954f6007824566ddb26e2e31ba\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\9aebe641c04673b4e37badcca70a7f1e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\9aebe641c04673b4e37badcca70a7f1e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\e560f34a26391fb2e61a3a7065e6f605\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\e560f34a26391fb2e61a3a7065e6f605\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\ef6ff8cbc1909695aa2014426c70e7d1\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\ef6ff8cbc1909695aa2014426c70e7d1\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:vito-renderer:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\627ad10c417510879b40861cf5be8ba0\transformed\jetified-vito-renderer-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-renderer:3.1.3] C:\Users\Sai20\.gradle\caches\transforms-3\627ad10c417510879b40861cf5be8ba0\transformed\jetified-vito-renderer-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.73.6] C:\Users\Sai20\.gradle\caches\transforms-3\db47093057b1f41800e5381cfc0052b7\transformed\jetified-hermes-android-0.73.6-release\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.73.6] C:\Users\Sai20\.gradle\caches\transforms-3\db47093057b1f41800e5381cfc0052b7\transformed\jetified-hermes-android-0.73.6-release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-sound] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-sound\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
+MERGED from [:react-native-sound] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\react-native-sound\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\9ef936a1622367cca974b233ed1d8443\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\9ef936a1622367cca974b233ed1d8443\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\a009ffcf970f3f3cce3851fbd00b05b9\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\a009ffcf970f3f3cce3851fbd00b05b9\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\9b8d778ccfc3ddb24e5f4fc76a7816a5\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\9b8d778ccfc3ddb24e5f4fc76a7816a5\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\0031d9e090613e51ce4e364cf3c0d99e\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\0031d9e090613e51ce4e364cf3c0d99e\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\192c14f4613fb0c2b46d35901dd336ef\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\192c14f4613fb0c2b46d35901dd336ef\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4dbb3f58a9fd53a0c4eaa8ffb9d2a519\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4dbb3f58a9fd53a0c4eaa8ffb9d2a519\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\9a32b3f0fe5d6d3a002cc00de98c23bd\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\9a32b3f0fe5d6d3a002cc00de98c23bd\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\a164d3ea2f354fdbecf257e5b2a99c0a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\a164d3ea2f354fdbecf257e5b2a99c0a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\4a81ce71af9c72b6bdf8944cbd28377b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\4a81ce71af9c72b6bdf8944cbd28377b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\98a66fc804b6660b3e2e1d8a829aaca8\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\98a66fc804b6660b3e2e1d8a829aaca8\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\6346311447512a18de02b94d75a441f3\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\6346311447512a18de02b94d75a441f3\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\649070c9aa8b5e5f484bbae2322c5e85\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\649070c9aa8b5e5f484bbae2322c5e85\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\4c38df224d4593cb021cc10e0f2972f7\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\4c38df224d4593cb021cc10e0f2972f7\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\aedaeef4ff2f845b14bc7d65cb7f5905\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\aedaeef4ff2f845b14bc7d65cb7f5905\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\2c5afa8287b7f0e3eeae5ac024f14af0\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\2c5afa8287b7f0e3eeae5ac024f14af0\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\253c1b602b27bca5a73b6ed6615383b1\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\253c1b602b27bca5a73b6ed6615383b1\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\b645b2ed69a2e282f593342336891f63\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\b645b2ed69a2e282f593342336891f63\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sai20\.gradle\caches\transforms-3\8161456b63a4fc8ccb1191ca896117e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sai20\.gradle\caches\transforms-3\8161456b63a4fc8ccb1191ca896117e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\ff11fb567506ca9df4b256047698ea28\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\ff11fb567506ca9df4b256047698ea28\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\f51ca1171a3850aee099841d48f7c123\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\f51ca1171a3850aee099841d48f7c123\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4fbe5b696242d179f72ce7f20a8695d5\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4fbe5b696242d179f72ce7f20a8695d5\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\9f369567dae574324b501ed899f834b0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\9f369567dae574324b501ed899f834b0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\44741602003680d6137199a2477b5847\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\44741602003680d6137199a2477b5847\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\1f5e9313ad02caa71cfe27bb9cbbdbe0\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\1f5e9313ad02caa71cfe27bb9cbbdbe0\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\9e556329b3055d284a8ac06096f22a35\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\9e556329b3055d284a8ac06096f22a35\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\261cca998bad15d377a79210d1f08b1b\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\261cca998bad15d377a79210d1f08b1b\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\671718722da4548b7c9720881e15b59d\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\671718722da4548b7c9720881e15b59d\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\9d9cf1657e8c4dde408c8fa6d2355897\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\9d9cf1657e8c4dde408c8fa6d2355897\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\80c5be9d4ef5b860007700e4dbf52781\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Sai20\.gradle\caches\transforms-3\80c5be9d4ef5b860007700e4dbf52781\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\c0dc5f1a6ebeb8d4d8dfb152dff1e92d\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\c0dc5f1a6ebeb8d4d8dfb152dff1e92d\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\e4d6317c0ec67de253a2997a3428de2e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\e4d6317c0ec67de253a2997a3428de2e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\e1128be481deab98f5c2302f6f776144\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Sai20\.gradle\caches\transforms-3\e1128be481deab98f5c2302f6f776144\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Sai20\.gradle\caches\transforms-3\c299a6d8bc084da5542640a432ab852f\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Sai20\.gradle\caches\transforms-3\c299a6d8bc084da5542640a432ab852f\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\20e14a3a1faed9ce3da9af0343545221\transformed\jetified-fbjni-0.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.5.1] C:\Users\Sai20\.gradle\caches\transforms-3\20e14a3a1faed9ce3da9af0343545221\transformed\jetified-fbjni-0.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\Sai20\.gradle\caches\transforms-3\82a3dce914b6f7c67a5e14e10aa0735b\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\Sai20\.gradle\caches\transforms-3\82a3dce914b6f7c67a5e14e10aa0735b\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Sai20\Desktop\Sai Teja\Attendance\android\app\src\main\AndroidManifest.xml
+intent#action:name:android.intent.action.OPEN_DOCUMENT_TREE
+ADDED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-17:18
+action#android.intent.action.OPEN_DOCUMENT_TREE
+ADDED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-79
+	android:name
+		ADDED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:21-76
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-30:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-47
+	android:authorities
+		ADDED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-74
+	android:exported
+		ADDED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
+	tools:replace
+		ADDED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-48
+	android:name
+		ADDED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-29:70
+	android:resource
+		ADDED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-67
+	android:name
+		ADDED from [:expo-file-system] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:17-67
+meta-data#org.unimodules.core.AppLoader#react-native-headless
+ADDED from [:expo-modules-core] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:9-11:89
+	android:value
+		ADDED from [:expo-modules-core] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-86
+	android:name
+		ADDED from [:expo-modules-core] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-79
+meta-data#com.facebook.soloader.enabled
+ADDED from [:expo-modules-core] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-15:45
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\Sai20\.gradle\caches\transforms-3\82a3dce914b6f7c67a5e14e10aa0735b\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\Sai20\.gradle\caches\transforms-3\82a3dce914b6f7c67a5e14e10aa0735b\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+	tools:replace
+		ADDED from [:expo-modules-core] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-42
+	android:value
+		ADDED from [:expo-modules-core] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-33
+		REJECTED from [com.facebook.soloader:soloader:0.10.5] C:\Users\Sai20\.gradle\caches\transforms-3\82a3dce914b6f7c67a5e14e10aa0735b\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+	android:name
+		ADDED from [:expo-modules-core] C:\Users\Sai20\Desktop\Sai Teja\Attendance\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-57
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4dbb3f58a9fd53a0c4eaa8ffb9d2a519\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sai20\.gradle\caches\transforms-3\8161456b63a4fc8ccb1191ca896117e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sai20\.gradle\caches\transforms-3\8161456b63a4fc8ccb1191ca896117e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\ff11fb567506ca9df4b256047698ea28\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sai20\.gradle\caches\transforms-3\ff11fb567506ca9df4b256047698ea28\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4dbb3f58a9fd53a0c4eaa8ffb9d2a519\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4dbb3f58a9fd53a0c4eaa8ffb9d2a519\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4dbb3f58a9fd53a0c4eaa8ffb9d2a519\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4dbb3f58a9fd53a0c4eaa8ffb9d2a519\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4dbb3f58a9fd53a0c4eaa8ffb9d2a519\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4dbb3f58a9fd53a0c4eaa8ffb9d2a519\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Sai20\.gradle\caches\transforms-3\4dbb3f58a9fd53a0c4eaa8ffb9d2a519\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.sai_teja123.Attendance.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.sai_teja123.Attendance.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Sai20\.gradle\caches\transforms-3\97dafb02ce1c76f135d92386cd4ea378\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sai20\.gradle\caches\transforms-3\8161456b63a4fc8ccb1191ca896117e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sai20\.gradle\caches\transforms-3\8161456b63a4fc8ccb1191ca896117e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sai20\.gradle\caches\transforms-3\8161456b63a4fc8ccb1191ca896117e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
